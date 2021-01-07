@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="toDoApp.css">
+    <script src="https://kit.fontawesome.com/1434104f3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-content">
+        <div class="header">
+            
+            <form>
+                <h1>To Do App <span id="plusIcon"><i class="fas fa-plus"></i></span> </h1> 
+                <div class="add">
+                    <input type="text" placeholder="Enter Item" class="textValue" id="addTaskInput">
+                    <input type="hidden" id="saveIndex">
+                    <button id="btnAdd" type="button">ADD <i class="fas fa-plus"></i></button>
+                    <button id="btnEditSave" type="button">Save</button>
+                </div>
+                    <div class="list">
+                        <table id="taskList">
+                           
+                        </table>
+                    </div>
+                   
+            </form>
+            
+        </div>
+        
+    </div>
+    <script src="toDoApp.js"></script>
+</body>
+</html> 
